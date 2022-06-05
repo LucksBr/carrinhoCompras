@@ -1,0 +1,145 @@
+
+
+
+@media (max-width: 540px) {
+    header > img {
+        width: 40px;
+        height: 40px;
+      }
+
+      header > div {
+       
+        font-size: 3rem;
+      }
+      
+      header > div > p {
+        font-size: 1.3rem;
+        color: rgba(255, 255, 255, 0.678);
+      }
+      
+      header > .logo {
+    
+        width: 40px;
+        height: 40px;
+        font-size: 2rem ;
+        
+      }
+
+      main > h1 {
+        font-size: 2rem;
+      }
+
+      .card > .title > h2 {
+        text-align: center;
+        font-size: 1.6rem;
+      }
+
+      .card > div > button {
+        font-size: 1.2rem;
+       
+      }
+}
+
+@media (max-width: 430px) {
+    header > img {
+        width: 30px;
+        height: 30px;
+      }
+
+      header > div {
+       
+        font-size: 3rem;
+      }
+      
+      header > div > p {
+        font-size: .9rem;
+        color: rgba(255, 255, 255, 0.678);
+        text-align: center;
+      }
+      
+      header > .logo {
+    
+        width: 30px;
+        height: 30px;
+        font-size: 2rem ;
+        
+      }
+
+      main > h1 {
+        font-size: 1.8rem;
+      }
+
+      .card > .title > h2 {
+        text-align: center;
+        font-size: 1.4rem;
+      }
+
+      #price {
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+
+@media (min-width: 1000px) and (min-height: 700px) {
+    main {
+        height: 100vh;
+      
+      }
+      
+}
+
+@media (max-width: 640px) {
+    .carrinhoON {
+        height: 100%;
+        border-radius: 0;
+       
+    }
+
+    .productCarrinho {
+        font-size: 2rem; 
+    }
+}
+
+@media (max-width: 540px) {
+    
+    .productCarrinho {
+        font-size: 1.5rem;
+    }
+
+    .quantidade {
+        font-size: 2rem;
+    }
+
+    .productCarrinho > p {
+        margin: 5px;
+    }
+
+    
+.quantidade > button {
+    width: 20px;
+    height: 30px;
+    
+}
+
+}
+
+@media (max-width: 400px) {
+    #price {
+        font-size: 2rem;
+    }
+
+    #pagamento {
+        font-size: 2rem;
+        margin: 5px;
+    }
+
+    #price > button {
+        width: 110px;
+        height: 25px;
+       
+    }
+}
